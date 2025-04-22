@@ -54,7 +54,7 @@ aliTahirDarkTheme = {
     DEFAULT_RANK_SHADOW: "#333",
     DEFAULT_RANK_TEXT: "#333",
   },
-const aliTahir_flat = {
+aliTahir_flat = {
   BACKGROUND: "transparent",
   TITLE: "rgb(236, 97, 91)",
   ICON_CIRCLE: "rgb(236, 97, 91)",
@@ -78,7 +78,7 @@ const aliTahir_flat = {
   DEFAULT_RANK_SHADOW: "rgb(40, 40, 40)",
   DEFAULT_RANK_TEXT: "rgb(255, 255, 255)"
 },
-const aliTahir_gradient = {
+aliTahir_gradient = {
   BACKGROUND: "transparent",
   TITLE: "rgb(236, 97, 91)",
   ICON_CIRCLE: "rgb(70, 30, 184)",
@@ -102,7 +102,7 @@ const aliTahir_gradient = {
   DEFAULT_RANK_SHADOW: "rgb(30, 30, 50)",
   DEFAULT_RANK_TEXT: "rgb(255, 255, 255)"
 },
-const aliTahir_neon = {
+aliTahir_neon = {
   BACKGROUND: "transparent",
   TITLE: "#FF1744",
   ICON_CIRCLE: "#651FFF",
@@ -126,7 +126,7 @@ const aliTahir_neon = {
   DEFAULT_RANK_SHADOW: "#212121",
   DEFAULT_RANK_TEXT: "#ffffff"
 },
-const aliTahir_glass = {
+aliTahir_glass = {
   BACKGROUND: "transparent",
   TITLE: "rgba(236, 97, 91, 0.8)",
   ICON_CIRCLE: "rgba(70, 30, 184, 0.8)",
