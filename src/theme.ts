@@ -1,4 +1,35 @@
 export const COLORS: { [name: string]: Theme } = {
+aliTahirDarkTheme = {
+  BACKGROUND: "transparent",
+  TITLE: "rgb(236, 97, 91)",         // Primary - Red
+  ICON_CIRCLE: "rgb(236, 97, 91)",   // Match the title
+  TEXT: "rgb(255, 255, 255)",        // White text
+  LAUREL: "rgb(70, 30, 184)",        // Secondary - Blue
+
+  // Optional colors for rank badges (based on your current theme structure)
+  SECRET_RANK_1: "red",
+  SECRET_RANK_2: "fuchsia",
+  SECRET_RANK_3: "blue",
+  SECRET_RANK_TEXT: "fuchsia",
+
+  NEXT_RANK_BAR: "rgb(70, 30, 184)",
+
+  S_RANK_BASE: "#FAD200",
+  S_RANK_SHADOW: "#C8A090",
+  S_RANK_TEXT: "#886000",
+
+  A_RANK_BASE: "#B0B0B0",
+  A_RANK_SHADOW: "#9090C0",
+  A_RANK_TEXT: "#505050",
+
+  B_RANK_BASE: "#A18D66",
+  B_RANK_SHADOW: "#816D96",
+  B_RANK_TEXT: "#412D06",
+
+  DEFAULT_RANK_BASE: "#777",
+  DEFAULT_RANK_SHADOW: "#333",
+  DEFAULT_RANK_TEXT: "#ffffff"  // Make the default text white for consistency
+},
   default: {
     BACKGROUND: "#FFF",
     TITLE: "#000",
@@ -23,6 +54,102 @@ export const COLORS: { [name: string]: Theme } = {
     DEFAULT_RANK_SHADOW: "#333",
     DEFAULT_RANK_TEXT: "#333",
   },
+const aliTahir_flat = {
+  BACKGROUND: "transparent",
+  TITLE: "rgb(236, 97, 91)",
+  ICON_CIRCLE: "rgb(236, 97, 91)",
+  TEXT: "rgb(255, 255, 255)",
+  LAUREL: "rgb(70, 30, 184)",
+  NEXT_RANK_BAR: "rgb(70, 30, 184)",
+
+  S_RANK_BASE: "rgb(236, 97, 91)",
+  S_RANK_SHADOW: "rgb(70, 30, 184)",
+  S_RANK_TEXT: "rgb(255, 255, 255)",
+
+  A_RANK_BASE: "rgb(70, 30, 184)",
+  A_RANK_SHADOW: "rgb(236, 97, 91)",
+  A_RANK_TEXT: "rgb(255, 255, 255)",
+
+  B_RANK_BASE: "rgb(236, 97, 91)",
+  B_RANK_SHADOW: "rgb(184, 50, 50)",
+  B_RANK_TEXT: "rgb(255, 255, 255)",
+
+  DEFAULT_RANK_BASE: "rgb(90, 90, 90)",
+  DEFAULT_RANK_SHADOW: "rgb(40, 40, 40)",
+  DEFAULT_RANK_TEXT: "rgb(255, 255, 255)"
+},
+const aliTahir_gradient = {
+  BACKGROUND: "transparent",
+  TITLE: "rgb(236, 97, 91)",
+  ICON_CIRCLE: "rgb(70, 30, 184)",
+  TEXT: "rgb(255, 255, 255)",
+  LAUREL: "rgb(255, 100, 150)",
+  NEXT_RANK_BAR: "rgb(160, 64, 190)",
+
+  S_RANK_BASE: "rgb(236, 97, 91)",
+  S_RANK_SHADOW: "rgb(70, 30, 184)",
+  S_RANK_TEXT: "rgb(255, 255, 255)",
+
+  A_RANK_BASE: "rgb(200, 70, 170)",
+  A_RANK_SHADOW: "rgb(70, 30, 184)",
+  A_RANK_TEXT: "rgb(255, 255, 255)",
+
+  B_RANK_BASE: "rgb(184, 90, 140)",
+  B_RANK_SHADOW: "rgb(90, 30, 140)",
+  B_RANK_TEXT: "rgb(255, 255, 255)",
+
+  DEFAULT_RANK_BASE: "rgb(80, 60, 100)",
+  DEFAULT_RANK_SHADOW: "rgb(30, 30, 50)",
+  DEFAULT_RANK_TEXT: "rgb(255, 255, 255)"
+},
+const aliTahir_neon = {
+  BACKGROUND: "transparent",
+  TITLE: "#FF1744",
+  ICON_CIRCLE: "#651FFF",
+  TEXT: "#ffffff",
+  LAUREL: "#18FFFF",
+  NEXT_RANK_BAR: "#651FFF",
+
+  S_RANK_BASE: "#FF1744",
+  S_RANK_SHADOW: "#651FFF",
+  S_RANK_TEXT: "#ffffff",
+
+  A_RANK_BASE: "#E040FB",
+  A_RANK_SHADOW: "#7C4DFF",
+  A_RANK_TEXT: "#ffffff",
+
+  B_RANK_BASE: "#00E5FF",
+  B_RANK_SHADOW: "#00B8D4",
+  B_RANK_TEXT: "#ffffff",
+
+  DEFAULT_RANK_BASE: "#424242",
+  DEFAULT_RANK_SHADOW: "#212121",
+  DEFAULT_RANK_TEXT: "#ffffff"
+},
+const aliTahir_glass = {
+  BACKGROUND: "transparent",
+  TITLE: "rgba(236, 97, 91, 0.8)",
+  ICON_CIRCLE: "rgba(70, 30, 184, 0.8)",
+  TEXT: "rgba(255, 255, 255, 0.9)",
+  LAUREL: "rgba(70, 30, 184, 0.6)",
+  NEXT_RANK_BAR: "rgba(236, 97, 91, 0.6)",
+
+  S_RANK_BASE: "rgba(236, 97, 91, 0.6)",
+  S_RANK_SHADOW: "rgba(70, 30, 184, 0.6)",
+  S_RANK_TEXT: "rgba(255, 255, 255, 0.9)",
+
+  A_RANK_BASE: "rgba(70, 30, 184, 0.6)",
+  A_RANK_SHADOW: "rgba(236, 97, 91, 0.5)",
+  A_RANK_TEXT: "rgba(255, 255, 255, 0.9)",
+
+  B_RANK_BASE: "rgba(180, 70, 120, 0.5)",
+  B_RANK_SHADOW: "rgba(80, 20, 140, 0.5)",
+  B_RANK_TEXT: "rgba(255, 255, 255, 0.9)",
+
+  DEFAULT_RANK_BASE: "rgba(90, 90, 90, 0.5)",
+  DEFAULT_RANK_SHADOW: "rgba(30, 30, 30, 0.5)",
+  DEFAULT_RANK_TEXT: "rgba(255, 255, 255, 0.8)"
+},
   dracula: {
     BACKGROUND: "#282a36",
     TITLE: "#ff79c6",
